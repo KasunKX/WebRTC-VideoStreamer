@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reciever</title>
+</head>
+<body>
+    <h1>Reciever</h1>
+
+    <video id="video" autoplay></video>
+
+   <div>
+        <button id="start">request</button>
+        <button id="stop">hangup</button>
+   </div>
+
+   <h3 id="message"> - </h3>
+
+    <style>
+        video{
+            border: 1px solid black;
+            width: 480px;
+            height: 320px;
+        }
+    </style>
+
+    
+</body>
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js" integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO" crossorigin="anonymous"></script>
+<script src="rec.js"></script>
+</html>
